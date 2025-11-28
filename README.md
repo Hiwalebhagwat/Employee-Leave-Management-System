@@ -49,24 +49,62 @@ Tools
 Add your screenshots here:
 
 ![Employee Login](output/1.Home-emp_login.png)
+
+
 ![Employee dashboard](output/2.Emp_dashboard.png)
+
+
 ![Leave Application of Employee](output/3.Leave_app_of_emp.png)
+
+
 ![Admin Login](output/4.admin-login.png)
+
+
 ![Admin Dashboard After Login](output/5.admin-dashboard-after-login.png)
+
+
 ![Applied Leave by an Employee](output/6.applied-leave-by-employee.png)
+
+
 ![Admin Approving Leave](output/7.admin-approving-leave.png)
+
+
 ![Admin Not Approving the Leave](output/8.Admin-not-approving-leave.png)
+
+
 ![Action Taken By Admin](output/9.action-taken-by-admin.png)
+
+
 ![Employee Gets Notified about Approval](output/10.emp-got-notif.png)
+
+
 ![Admin can change his Password](output/11.changeadminpass.png)
+
+
 ![Admin can add departments](output/12.adddept.png)
+
+
 ![Admin can manage already existing departments](output/13.manage.png)
+
+
 ![Admin can add Employees](output/14.addemployee.png)
+
+
 ![Admin can manage already existing Employees](output/15.manageemp.png)
+
+
 ![Admin Dashboard For all Leaves](output/16.alldahsboard.png)
+
+
 ![Pending Leave Dashboard For Admin](output/17.pending.png)
+
+
 ![Approved Leave dashboard for admin](output/18.approvedashboard.png)
+
+
 ![ Not Approved Leave dashboard for admin](output/19.notapprdashboard.png)
+
+
 ![ Employee Password Recovery](output/1-2.empassrecovery.png)
 
 
@@ -191,16 +229,28 @@ EmpID: 7856214 (Used for password recovery)
 
 
 📁 **Project Structure**
-project-root/
- ├── admin/
- ├── employee/
- ├── includes/
- ├── images/
- ├── database/
- │    └── elmsdb.sql
- ├── config.php
- ├── index.php
- └── README.md
+
+ project-root/
+├── admin/
+│   ├── dashboard.php
+│   ├── manage-leaves.php
+│   ├── manage-departments.php
+│   ├── manage-leave-type.php
+│   └── ...
+├── employee/
+│   ├── apply-leave.php
+│   ├── leave-history.php
+│   └── ...
+├── includes/
+│   ├── config.php
+│   ├── header.php
+│   └── sidebar.php
+├── images/
+├── database/
+│   └── elmsdb.sql
+├── index.php
+└── README.md
+
 
 👨‍💻 **Credits**
 
