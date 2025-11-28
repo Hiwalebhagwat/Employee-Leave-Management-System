@@ -2,7 +2,7 @@
 
 A complete Leave Management System built using PHP, MySQL, HTML, CSS, JavaScript, and Bootstrap.
 Designed for seamless leave application, tracking, and administration.
-====================================================================================================================================================================================================================
+===========================================================================================
 ### ⭐ Feature
 
 👨‍💼 Employee & Admin authentication
@@ -22,7 +22,7 @@ Designed for seamless leave application, tracking, and administration.
 🗄 MySQL database for all records
 
 
-====================================================================================================================================================================================================================
+
 ### 🛠️ Tech Stack (Implementation)
 **Frontend**
 
